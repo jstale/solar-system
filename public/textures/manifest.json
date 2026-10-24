@@ -1,0 +1,174 @@
+{
+  "sun": {
+    "lo": "textures/sun.jpg",
+    "hi": "textures/hi/sun.jpg"
+  },
+  "mercury": {
+    "lo": "textures/mercury.jpg",
+    "hi": "textures/hi/mercury.jpg"
+  },
+  "venus_surface": {
+    "lo": "textures/venus_surface.jpg",
+    "hi": "textures/hi/venus_surface.jpg"
+  },
+  "venus_atmosphere": {
+    "lo": "textures/venus_atmosphere.jpg",
+    "hi": "textures/hi/venus_atmosphere.jpg"
+  },
+  "earth_day": {
+    "lo": "textures/earth_day.jpg",
+    "hi": "textures/hi/earth_day.jpg"
+  },
+  "earth_night": {
+    "lo": "textures/earth_night.jpg",
+    "hi": "textures/hi/earth_night.jpg"
+  },
+  "earth_clouds": {
+    "lo": "textures/earth_clouds.jpg",
+    "hi": "textures/hi/earth_clouds.jpg"
+  },
+  "earth_normal": {
+    "lo": "textures/earth_normal.jpg",
+    "hi": "textures/hi/earth_normal.jpg"
+  },
+  "earth_specular": {
+    "lo": "textures/earth_specular.jpg",
+    "hi": "textures/hi/earth_specular.jpg"
+  },
+  "moon": {
+    "lo": "textures/moon.jpg",
+    "hi": "textures/hi/moon.jpg"
+  },
+  "mars": {
+    "lo": "textures/mars.jpg",
+    "hi": "textures/hi/mars.jpg"
+  },
+  "jupiter": {
+    "lo": "textures/jupiter.jpg",
+    "hi": "textures/hi/jupiter.jpg"
+  },
+  "saturn": {
+    "lo": "textures/saturn.jpg",
+    "hi": "textures/hi/saturn.jpg"
+  },
+  "saturn_ring": {
+    "lo": "textures/saturn_ring.png",
+    "hi": "textures/hi/saturn_ring.png"
+  },
+  "uranus": {
+    "lo": "textures/uranus.jpg",
+    "hi": null
+  },
+  "neptune": {
+    "lo": "textures/neptune.jpg",
+    "hi": null
+  },
+  "eris": {
+    "lo": "textures/eris.jpg",
+    "hi": "textures/hi/eris.jpg"
+  },
+  "haumea": {
+    "lo": "textures/haumea.jpg",
+    "hi": "textures/hi/haumea.jpg"
+  },
+  "makemake": {
+    "lo": "textures/makemake.jpg",
+    "hi": "textures/hi/makemake.jpg"
+  },
+  "ceres": {
+    "lo": "textures/ceres.jpg",
+    "hi": "textures/hi/ceres.jpg"
+  },
+  "vesta": {
+    "lo": "textures/vesta.jpg",
+    "hi": "textures/hi/vesta.jpg"
+  },
+  "pluto": {
+    "lo": "textures/pluto.jpg",
+    "hi": "textures/hi/pluto.jpg"
+  },
+  "charon": {
+    "lo": "textures/charon.jpg",
+    "hi": "textures/hi/charon.jpg"
+  },
+  "io": {
+    "lo": "textures/io.jpg",
+    "hi": "textures/hi/io.jpg"
+  },
+  "europa": {
+    "lo": "textures/europa.jpg",
+    "hi": "textures/hi/europa.jpg"
+  },
+  "ganymede": {
+    "lo": "textures/ganymede.jpg",
+    "hi": "textures/hi/ganymede.jpg"
+  },
+  "callisto": {
+    "lo": "textures/callisto.jpg",
+    "hi": null
+  },
+  "mimas": {
+    "lo": "textures/mimas.jpg",
+    "hi": "textures/hi/mimas.jpg"
+  },
+  "enceladus": {
+    "lo": "textures/enceladus.jpg",
+    "hi": "textures/hi/enceladus.jpg"
+  },
+  "tethys": {
+    "lo": "textures/tethys.jpg",
+    "hi": "textures/hi/tethys.jpg"
+  },
+  "dione": {
+    "lo": "textures/dione.jpg",
+    "hi": "textures/hi/dione.jpg"
+  },
+  "rhea": {
+    "lo": "textures/rhea.jpg",
+    "hi": "textures/hi/rhea.jpg"
+  },
+  "iapetus": {
+    "lo": "textures/iapetus.jpg",
+    "hi": "textures/hi/iapetus.jpg"
+  },
+  "titan": {
+    "lo": "textures/titan.jpg",
+    "hi": "textures/hi/titan.jpg"
+  },
+  "ariel": {
+    "lo": "textures/ariel.jpg",
+    "hi": null
+  },
+  "miranda": {
+    "lo": "textures/miranda.jpg",
+    "hi": null
+  },
+  "oberon": {
+    "lo": "textures/oberon.jpg",
+    "hi": null
+  },
+  "titania": {
+    "lo": "textures/titania.jpg",
+    "hi": null
+  },
+  "triton": {
+    "lo": "textures/triton.jpg",
+    "hi": "textures/hi/triton.jpg"
+  },
+  "umbriel": {
+    "lo": "textures/umbriel.jpg",
+    "hi": null
+  },
+  "phobos": {
+    "lo": "textures/phobos.jpg",
+    "hi": null
+  },
+  "deimos": {
+    "lo": "textures/deimos.jpg",
+    "hi": null
+  },
+  "stars": {
+    "lo": "textures/stars.jpg",
+    "hi": "textures/hi/stars.jpg"
+  }
+}

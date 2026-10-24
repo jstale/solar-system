@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solar System</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='9' fill='%23ffc35a'/></svg>" />
+  </head>
+  <body>
+    <canvas id="scene"></canvas>
+    <div id="labels"></div>
+
+    <div id="ui">
+      <header id="topbar">
+        <div class="brand">Solar System <span>· true scale</span></div>
+        <div id="timebar"></div>
+        <div class="views">
+          <button data-view="inner" title="Inner Solar System">Inner</button>
+          <button data-view="outer" title="Outer Solar System">Outer</button>
+          <button data-view="kuiper" title="Kuiper belt">Kuiper</button>
+        </div>
+      </header>
+
+      <aside id="sidebar">
+        <button id="sidebar-toggle" title="Bodies (B)">☰</button>
+        <div id="tree"></div>
+      </aside>
+
+      <section id="info"></section>
+
+      <footer id="help">
+        drag: rotate · wheel: zoom · click: focus · <kbd>1</kbd>–<kbd>9</kbd> planets · <kbd>Esc</kbd> parent ·
+        <kbd>[</kbd><kbd>]</kbd> siblings · <kbd>Space</kbd> pause · <kbd>,</kbd><kbd>.</kbd> speed · <kbd>H</kbd> hide UI ·
+        <a href="#" id="credits-link">credits</a>
+      </footer>
+    </div>
+
+    <div id="loading">
+      <div class="spinner"></div>
+      <div class="msg">Loading textures…</div>
+      <div class="bar"><div></div></div>
+    </div>
+
+    <dialog id="credits">
+      <h2>Data &amp; image credits</h2>
+      <ul>
+        <li><b>Planet orbits:</b> JPL “Keplerian Elements for Approximate Positions of the Major Planets” (E. M. Standish).</li>
+        <li><b>Moon orbits:</b> JPL Solar System Dynamics – planetary satellite mean elements; radii from JPL physical parameters and Wikipedia’s list of natural satellites.</li>
+        <li><b>Dwarf planets, asteroids, comet:</b> JPL Small-Body Database.</li>
+        <li><b>Rotation models:</b> IAU WGCCRE 2015 (Archinal et al. 2018).</li>
+        <li><b>Planet textures:</b> <a href="https://www.solarsystemscope.com/textures/" target="_blank" rel="noopener">Solar System Scope</a> (CC BY 4.0), based on NASA mission data. Eris, Haumea and Makemake maps are artist’s impressions.</li>
+        <li><b>Moon, Pluto, Ceres &amp; Vesta maps:</b> <a href="https://stevealbers.net/albers/sos/sos.html" target="_blank" rel="noopener">Steve Albers</a> (NASA/JPL/USGS data), Björn Jónsson (Callisto), <a href="https://github.com/nasa/NASA-3D-Resources" target="_blank" rel="noopener">NASA 3D Resources</a>.</li>
+        <li><b>Star background:</b> NASA/Goddard Scientific Visualization Studio, <a href="https://svs.gsfc.nasa.gov/4851" target="_blank" rel="noopener">Deep Star Maps 2020</a> (Hipparcos-2, Tycho-2, Gaia DR2).</li>
+      </ul>
+      <form method="dialog"><button>Close</button></form>
+    </dialog>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
