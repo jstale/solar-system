@@ -2,6 +2,8 @@
 
 Interactive, true-scale simulation of the Solar System in the browser, built with three.js.
 
+**Live demo: https://jstale.github.io/solar-system/** (deployed from `main` by GitHub Actions)
+
 - **Sun, 8 planets, 12 dwarf planets / large asteroids / Halley's comet, 467 moons** (every moon in
   JPL's satellite tables plus the moons of Eris, Haumea, Makemake, Orcus, Quaoar and Gonggong).
 - **Real positions for any date**: planets from JPL's Keplerian elements, moons from JPL mean
