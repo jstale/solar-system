@@ -4,6 +4,11 @@ Interactive, true-scale simulation of the Solar System in the browser, built wit
 
 **Live demo: https://jstale.github.io/solar-system/** (deployed from `main` by GitHub Actions)
 
+| | |
+| --- | --- |
+| ![Earth with clouds, ocean glint and city lights on the night side](docs/screenshots/earth.jpg) | ![Total solar eclipse of 2 August 2027: the Moon's shadow over Egypt](docs/screenshots/eclipse-2027.jpg) |
+| ![Saturn, its ring shadow and the planet's shadow on the rings](docs/screenshots/saturn.jpg) | ![Outer Solar System with the Kuiper belt and dwarf-planet orbits](docs/screenshots/kuiper-belt.jpg) |
+
 - **Sun, 8 planets, 12 dwarf planets / large asteroids / Halley's comet, 467 moons** (every moon in
   JPL's satellite tables plus the moons of Eris, Haumea, Makemake, Orcus, Quaoar and Gonggong).
 - **Real positions for any date**: planets from JPL's Keplerian elements, moons from JPL mean
@@ -30,10 +35,16 @@ npm run textures   # downloads ~380 MB of source maps once (kept in .cache/), wr
 npm run dev        # http://localhost:5173
 ```
 
-`npm run build` produces a static site in `dist/` (textures included) that can be served from
-any static host. The app still runs without textures (flat colours).
+The app still runs without textures (flat colours). Append `#Saturn` (or any body name) to the
+URL to start there.
 
-Append `#Saturn` (or any body name) to the URL to start there.
+## Deployment
+
+Every push to `main` runs `.github/workflows/deploy.yml`, which runs `npm ci` and `npm run build`
+and publishes `dist/` to GitHub Pages. The generated textures are committed under
+`public/textures`, so CI never downloads them from the third-party sites. The build uses relative
+URLs (`base: './'` in `vite.config.js`), so `dist/` also works as-is on any other static host or
+sub-path.
 
 ## Controls
 
@@ -110,3 +121,8 @@ python -I tools/build_moons.py elem.html phys.html wiki.html src/data/moons.json
 
 Moons without spacecraft maps (most small irregular moons) use a tinted generic surface on a
 procedurally lumpy shape; their sizes come from JPL or Wikipedia, or default to 1.5 km when unknown.
+
+## License
+
+The code is released under the [MIT License](LICENSE). The textures and source data listed under
+Credits remain under their owners' terms.

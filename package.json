@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "description": "Interactive, true-scale Solar System simulation in the browser (three.js)",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
